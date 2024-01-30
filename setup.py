@@ -8,7 +8,7 @@ setup(
     license='MIT',
     maintainer='',
     maintainer_email='',
-    long_description='',
+    long_description=open('README.rst').read(),
     description='Pure python implementation of Peter Jaeckel\'s LetsBeRational.',
     install_requires = [
         'numpy'
