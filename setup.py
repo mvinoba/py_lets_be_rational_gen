@@ -2,13 +2,13 @@ from distutils.core import setup
 
 
 setup(
-    name='py_lets_be_rational',
-    version='1.0.2',
-    packages=['py_lets_be_rational'],
-    url='http://jaeckel.org',
+    name='py_lets_be_rational_gen',
+    version='1.0.0',
+    url='',
     license='MIT',
-    maintainer='vollib',
-    maintainer_email='vollib@gammoncap.com',
+    maintainer='',
+    maintainer_email='',
+    long_description=open('README.md').read(),
     description='Pure python implementation of Peter Jaeckel\'s LetsBeRational.',
     install_requires = [
         'numpy'
